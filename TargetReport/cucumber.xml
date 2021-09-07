@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="6" tests="6" time="0">
+    <testcase classname="Petstore" name="Perform an order placed request" time="0">
+        <skipped><![CDATA[Given Pets exist in the inventory...........................................undefined
+When I place an order for a pet.............................................undefined
+Then I receive the response code 200........................................undefined
+And My order details are returned...........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Petstore" name="Perform an invalid order placed request" time="0">
+        <skipped><![CDATA[Given Pets exist in the inventory...........................................undefined
+When I place an invalid order for a pet.....................................undefined
+Then I receive the response code 400........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Petstore" name="Return order by order ID" time="0">
+        <skipped><![CDATA[Given Orders exist in the inventory.........................................undefined
+When I perform a get request for my order...................................undefined
+Then I receive the response code 200........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Petstore" name="Request an order that does not exist" time="0">
+        <skipped><![CDATA[Given Orders exist in the inventory.........................................undefined
+When I perform a get request for an order that does not exist...............undefined
+Then I receive the response code 404........................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Petstore" name="Perform a delete request" time="0">
+        <skipped><![CDATA[Given Orders exist in the inventory.........................................undefined
+When I delete a purchase order by Id........................................undefined
+Then I receive the response code 200........................................undefined
+And The correct order has been deleted......................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Petstore" name="Perform a delete request with an invalid ID" time="0">
+        <skipped><![CDATA[Given Orders exist in the inventory.........................................undefined
+When I send a delete request for an invalid order Id........................undefined
+Then I receive the response code 404........................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
